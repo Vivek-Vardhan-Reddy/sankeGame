@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat:none ;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size:xx-large;
+    font: bolder;
+}
+
+h1 {
+    color: #4CAF50;
+    text-shadow: 
+        0 0 5px #FFFFFF,
+        0 0 10px #4CAF50;
+    letter-spacing: 2px;
+    margin: 30px 0;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 
+            0 0 5px #FFFFFF,
+            0 0 10px #4CAF50;
+    }
+    to {
+        text-shadow: 
+            0 0 10px #FFFFFF,
+            0 0 20px #4CAF50,
+            0 0 30px #4CAF50;
+    }
+}
+
+#board {
+    border: 5px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #4CAF50;
+}
